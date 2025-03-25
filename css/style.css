@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1131px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 850px;
+  background-color: #002D3A;
+  gap: 100px;
+  padding: 20px;
+}
+header nav {
+  width: 1131px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .nav__items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+header nav .nav__items ul {
+  list-style-type: none;
+}
+header nav .nav__items ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 40px;
+}
+header nav .nav__items .shop-btn {
+  width: 137px;
+  height: 48px;
+  background-color: #13AE92;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-container .about {
+  width: 493px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header .header-container .about .about__head_p {
+  width: 120px;
+  font-size: 14px;
+  letter-spacing: 10%;
+  font-weight: 600;
+  color: #119786;
+}
+header .header-container .about .about__description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 483px;
+}
+header .header-container .about .about__description h2 {
+  width: 483;
+  height: 152;
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+header .header-container .about .about__description p {
+  width: 491;
+  height: 78;
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+header .header-container .about .shop-btn {
+  width: 137px;
+  height: 48px;
+  background-color: #13AE92;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+}
+header .header-container img {
+  margin-right: 120px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 130px 0;
+}
+main .sports-info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .sports-info-section .features-cards {
+  display: flex;
+  align-items: center;
+  width: 552;
+  height: 630;
+  gap: 30px;
+}
+main .sports-info-section .features-cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: 261px;
+  height: 300px;
+  padding: 30px;
+  box-shadow: 4px 6px 34px 4px rgba(0, 0, 0, 0.0196078431);
+}
+main .sports-info-section .features-cards .card .second_row {
+  height: 33px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+main .sports-info-section .features-cards .card .description {
+  width: 215px;
+  height: 66px;
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+main .sports-info-section .features-cards .card .footer {
+  width: 76px;
+  height: 22px;
+  opacity: 0.8;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #000000;
+  text-decoration: none;
+}
+main .sports-info-section .highlight-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: 410px;
+  height: 233px;
+}
+main .sports-info-section .highlight-section h2 {
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+main .sports-info-section .highlight-section p {
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+main .sports-info-section .highlight-section .btn {
+  width: 137px;
+  height: 48px;
+  background-color: #13AE92;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=style.css.map */
